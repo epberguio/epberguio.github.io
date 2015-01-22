@@ -1,0 +1,141 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+  <meta charset="UTF-8" >
+  <title>El nuevo modelo de desarrollo de Firefox.</title>  
+  <link href="solucionCSS.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<h1>El nuevo modelo de desarrollo de Firefox</h1>
+
+<div>
+<h2>Introducción</h2>
+
+<p>Hace diez años, en octubre de 2001, se publicó <span
+class="programa">Internet Explorer 6</span>, el navegador con el que
+<em>Microsoft</em> culminaba su victoria absoluta en la guerra de los
+navegadores de años anteriores y que se llegó a utilizar en más del 90% de los
+ordenadores del mundo. Para <em>Microsoft</em>, la competencia y la innovación
+en los navegadores web se habían terminado.</p>
+
+<p>La competencia renació cuando se publicó <span class="programa">Firefox
+1.0</span> en noviembre de 2004. Hasta marzo de 2011, en que se publicó <span
+class="programa">Firefox 4</span>, la <em>fundación Mozilla</em> estuvo
+publicando una nueva versión más o menos cada 12 meses, dejando atrás en
+Internet Explorer. Microsoft tardó cinco años en publicar una nueva versión de
+Internet Explorer (IE7 en octubre de 2006) y después ha ido acelerando el ritmo
+de publicación de versiones (2 años y medio para sacar IE8 en marzo de 2009, 2
+años para sacar IE9 en marzo de 2011).</p>
+
+<p>Pero desde diciembre de 2008 hay otro jugador en la partida: <em>Google</em>
+con su navegador <span class="programa">Google Chrome</span>, que publica
+versiones cada vez más a menudo (2 en 2009, 5 en 2010 y probablemente 7 en
+2011). Así que la <em>fundación Mozilla</em> ha decidido acelerar la
+publicación de nuevas versiones: <span class="programa">Firefox 5</span> se
+publicó en junio de 2011, tres meses después de Firefox 4, y a partir de ahí la
+intención es publicar nuevas versiones cada seis semanas. <span
+class="programa">Firefox 6</span> se publicó en agosto y de aquí al final de
+2011 están previstas 3 versiones más.</p>
+</div>
+
+<div>
+<h2>Los detalles del proceso</h2>
+
+<p>Para conseguir publicar nuevas versiones cada seis semanas, <a
+href="http://www.mozilla.org/es-ES/firefox/">Firefox</a> ha definido un proceso
+en cuatro pasos: Mozilla Central, Aurora, Beta y Estable.</p>
+<ul>
+  <li>Mozilla Central es la versión de desarrollo en la que se introducen las
+    nuevas características.</li>
+  <li>Aurora es la primera versión de prueba en la que se prueban y corrigen
+    errores.</li>
+  <li>Beta es la segunda versión de prueba en la que se siguen probando y
+    corrigiendo errores.</li>
+  <li>Estable es la versión publicada.</li>
+</ul>
+
+<p>Cada seis semanas, las versiones pasan de una fase a la siguiente. Así, el
+calendario previsto para los próximos meses es el siguiente:</p>
+
+<table border="1">
+  <tbody>
+    <tr>
+      <td></td>
+      <th class="conborde">16/08/11</th>
+      <th>27/09/11</th>
+      <th class="conborde">08/11/11</th>
+      <th>20/12/11</th>
+    </tr>
+    <tr>
+      <td><img alt="Firefox Nightly" src="logo_ff_nightly_100.png" width="100"
+        height="102" title="Firefox Nightly" /></td>
+      <td class="conborde confondo">Firefox 9 en MC</td>
+      <td>Firefox 10 en MC</td>
+      <td class="conborde confondo">Firefox 11 en MC</td>
+      <td>Firefox 12 en MC</td>
+    </tr>
+    <tr>
+      <td><img alt="Firefox Aurora" src="logo_ff_aurora_100.jpg" width="100"
+        height="103" title="Firefox Aurora" /></td>
+      <td class="conborde">Firefox 8 en Aurora</td>
+      <td class="confondo">Firefox 9 en Aurora</td>
+      <td class="conborde">Firefox 10 en Aurora</td>
+      <td class="confondo">Firefox 11 en Aurora</td>
+    </tr>
+    <tr>
+      <td><img alt="Firefox Beta" src="logo_ff_100.png" width="100" height="95"
+        title="Firefox Beta" /></td>
+      <td class="conborde confondo">Firefox 7 en Beta</td>
+      <td>Firefox 8 en Beta</td>
+      <td class="conborde confondo">Firefox 9 en Beta</td>
+      <td>Firefox 10 en Beta</td>
+    </tr>
+    <tr>
+      <td><img alt="Firefox Estable" src="logo_ff_100.png" width="100"
+        height="95" title="Firefox Estable" /></td>
+      <td class="conborde">Firefox 6 publicado</td>
+      <td class="confondo">Firefox 7 publicado</td>
+      <td class="conborde">Firefox 8 publicado</td>
+      <td class="confondo">Firefox 9 publicado</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Además, como en el caso de Google Chrome, Firefox se actualiza
+automáticamente cada vez que una nueva versión se publica.</p>
+</div>
+
+<div>
+<h2>Ventajas e inconvenientes</h2>
+
+<div>
+<p>La principal ventaja de este nuevo modelo de desarrollo es la velocidad a la
+que las novedades llegan a los usuarios: en vez de una versión anual con muchos
+cambios, el usuario va recibiendo cada seis semanas las novedades que ya están
+disponibles. </p>
+
+<p>Otra ventaja para los desarrolladores de Firefox es que no se tiene
+preocupar por mantener actualizaciones de seguridad de versiones antiguas, y
+sólo tienen que mantener la última versión publicada.</p>
+</div>
+
+<div>
+<p>Pero este modelo tiene también inconvenientes, todavía no resueltos:</p>
+
+<p>Por diferentes motivos, algunas extensiones dejan de funcionar en las nuevas
+versiones de Firefox. Si es porque la extensión pide una versión determinada,
+se puede arreglar fácilmente si el autor todavía mantiene la extensión, pero si
+el motivo es que ha habido un cambio interno en Firefox que impide el
+funcionamiento de la extensión, el problema puede ser más difícil de resolver.
+En cualquier caso, cada nueva versión provocará que algunas extensiones dejen
+de funcionar y eso perjudica a los usuarios.</p>
+
+<p>En entornos empresariales en los que las nuevas versiones se implantan
+después de un largo proceso de prueba y evaluación, será difícil utilizar
+Firefox, ya que antes de terminar las pruebas de una versión ya habrá salido la
+siguiente. </p>
+</div>
+</div>
+</body>
+</html>
